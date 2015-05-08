@@ -37,12 +37,12 @@ namespace KuasWebApp.Controllers
         {
             var course = CourseService.GetCourseByName(Name);
 
-            if course == null)
+            if (course == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
 
-            return coursee;
+            return course;
         }
 
         private void CheckCourseIsNotNullThrowException(Course course)
