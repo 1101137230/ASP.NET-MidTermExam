@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<objects xmlns="http://www.springframework.net">
+
+
+  <object id="courseDao" type="KuasCore.Dao.Impl.CourseDao, KuasCore">
+
+  </object>
+</objects>
